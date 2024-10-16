@@ -2,7 +2,7 @@
 const express = require("express");
 const cors = require("cors");
 const app = express();
-const PORT = process.env.PORT || 9000;
+const PORT = process.env.PORT || 3000;
 
 // Enable CORS for all requests
 app.use(cors());
