@@ -9,7 +9,7 @@ app.use(cors());
 
 // Define a simple route
 app.get("/", (req, res) => {
-  res.send("Hello from EC2!");
+  res.send("Hello from EC2 on AWS.");
 });
 
 // Start the server
